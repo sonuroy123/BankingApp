@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Detail">
+
+    <ImageView
+        android:id="@+id/imgProfile"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/profile"/>
+
+    <TextView
+        android:id="@+id/txtName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Name :-"
+        android:textStyle="bold"
+        android:padding="6dp"
+        android:layout_marginRight="280dp"
+        android:layout_below="@id/imgProfile"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="30dp"
+        />
+
+    <TextView
+        android:id="@+id/txtName1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:textStyle="bold"
+        android:padding="6dp"
+        android:layout_below="@id/imgProfile"
+        android:layout_marginLeft="140dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="20dp"
+        />
+
+    <TextView
+        android:id="@+id/txtEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Email :-"
+        android:textStyle="bold"
+        android:padding="6dp"
+        android:layout_marginRight="280dp"
+        android:layout_below="@id/txtName"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="30dp"
+        />
+
+    <TextView
+        android:id="@+id/txtEmail1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Email"
+        android:textStyle="bold"
+        android:padding="6dp"
+        android:layout_below="@id/txtName1"
+        android:layout_marginLeft="140dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="20dp"
+        />
+
+    <TextView
+        android:id="@+id/txtBalance"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Balance :-"
+        android:textStyle="bold"
+        android:padding="6dp"
+        android:layout_marginRight="280dp"
+        android:layout_below="@id/txtEmail"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="30dp"
+        />
+
+    <TextView
+        android:id="@+id/txtBalance1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Balance"
+        android:textStyle="bold"
+        android:padding="6dp"
+        android:layout_below="@id/txtEmail1"
+        android:layout_marginLeft="140dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="20dp"
+        />
+
+    <TextView
+        android:id="@+id/txtAccNo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="A/C No :-"
+        android:textStyle="bold"
+        android:padding="6dp"
+        android:layout_marginRight="280dp"
+        android:layout_below="@id/txtBalance"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="30dp"
+        />
+
+    <TextView
+        android:id="@+id/txtAccNo1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="A/c"
+        android:textStyle="bold"
+        android:padding="6dp"
+        android:layout_below="@id/txtBalance1"
+        android:layout_marginLeft="140dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="20dp"
+        />
+
+    <TextView
+        android:id="@+id/txtContact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Contact :-"
+        android:textStyle="bold"
+        android:padding="6dp"
+        android:layout_marginRight="280dp"
+        android:layout_below="@id/txtAccNo"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="30dp"
+        />
+
+    <TextView
+        android:id="@+id/txtContact1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Contact"
+        android:textStyle="bold"
+        android:padding="6dp"
+        android:layout_below="@id/txtAccNo1"
+        android:layout_marginLeft="140dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="20dp"
+        />
+
+    <Button
+        android:id="@+id/btnTransfer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TRANSFER MONEY"
+        android:textStyle="bold"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="100dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="100dp"/>
+
+
+</RelativeLayout>
