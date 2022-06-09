@@ -33,7 +33,7 @@ public class DatabaseHelper extends SQLiteOpenHelper {
         insertData("Satyam","singhSatyam23@gmail.com",70000,"999972698","XXXXXXXXXXXX1034",db);
         insertData("Ujjwal","ujjwalda345@gmail.com",85000,"925559876","XXXXXXXXXXXX4234",db);
         insertData("Anupam","anupamchuso67@gmail.com",25000,"9255234568","XXXXXXXXXXXX1534",db);
-        insertData("Anubhab","anubhabMausi45@gmail.com",45000,"9234567698","XXXXXXXXXXXX8734",db);
+        insertData("TunTun Mausi","anubhabMausi45@gmail.com",45000,"9234567698","XXXXXXXXXXXX8734",db);
 
     }
 
@@ -61,6 +61,7 @@ public class DatabaseHelper extends SQLiteOpenHelper {
         Cursor c = db.rawQuery(select,null);
         return c;
     }
+
     public void UpdateAmount(String Email,String amount){
         SQLiteDatabase db =this.getWritableDatabase();
         String select="UPDATE USER_DETAILS set BALANCE = '"+ amount +"' where Email = '"+Email+"'";
@@ -76,6 +77,7 @@ public class DatabaseHelper extends SQLiteOpenHelper {
         values.put("BALANCE",balance);
         database.insert("USER_DETAILS",null,values);
     }
+
     public void insertTransferData(String from_name, String to_name, int amount, String Status){
         SQLiteDatabase database = this.getWritableDatabase();
         ContentValues values= new ContentValues();

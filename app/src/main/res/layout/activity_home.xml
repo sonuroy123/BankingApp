@@ -7,6 +7,18 @@
     android:layout_height="match_parent"
     tools:context=".Home">
 
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="BASIC"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:backgroundTint="#ffffff"
+        android:textColor="#42a5f5"
+        android:padding="10dp"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="80dp"/>
    <TextView
        android:layout_width="match_parent"
        android:layout_height="wrap_content"
@@ -17,7 +29,6 @@
        android:textColor="#42a5f5"
        android:padding="10dp"
        android:layout_marginLeft="100dp"
-       android:layout_marginTop="70dp"
        android:layout_marginRight="80dp"/>
 
     <com.airbnb.lottie.LottieAnimationView
@@ -46,5 +57,10 @@
         android:layout_marginTop="30dp"
         android:layout_marginLeft="100dp"
         android:layout_marginRight="80dp"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/spark"/>
 
 </LinearLayout>
